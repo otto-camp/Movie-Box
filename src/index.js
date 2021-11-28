@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import * as serviceWorker from './ServiceWorker';
 
 ReactDOM.render(
@@ -12,4 +11,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 serviceWorker.unregister();
-reportWebVitals();

@@ -1,0 +1,19 @@
+.searchbox {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: #EEE;
+    border-radius: 1rem;
+    color: #53565A;
+    font-size: 20px;
+    font-weight: 300;
+  
+    transition: 0.4s ease-out;
+  }
+  
+  .searchbox:focus {
+    box-shadow: 0rem 0rem 1rem 0.5rem #4484C4;
+  }

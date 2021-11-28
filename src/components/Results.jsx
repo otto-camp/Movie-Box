@@ -1,4 +1,5 @@
 import React from 'react'
+import '/Users/USER/movie-db/src/components/styles/Results.css';
 
 import Result from './Result'
 

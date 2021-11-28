@@ -1,4 +1,5 @@
 import React from 'react'
+import '../components/styles/Search.css'
 
 function Search ({ handleInput, search }) {
 	return (

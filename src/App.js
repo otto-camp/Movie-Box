@@ -22,10 +22,9 @@ function App() {
         setState(prevState => {
           return { ...prevState, results: results }
         })
-      });
+      })
     }
   }
-
 
   const handleInput = (e) => {
     let s = e.target.value;
@@ -36,13 +35,13 @@ function App() {
   }
 
   const openPopup = id => {
-    axios(apiurl + "&i=" + id).then(({ data }) => {
+    axios(apiurl + "&i=" + id + "&plot=full").then(({ data }) => {
       let result = data;
 
       console.log(result);
 
       setState(prevState => {
-        return { ...prevState, selected: result }
+        return { ...prevState, selected: result}
       });
     });
   }

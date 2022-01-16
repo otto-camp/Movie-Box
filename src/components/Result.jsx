@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/Result.css";
+import "./Result.css";
 
 function Result({ result, openPopup }) {
   const posterErr = "https://www.freeiconspng.com/uploads/no-image-icon-6.png";

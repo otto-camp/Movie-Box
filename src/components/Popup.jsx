@@ -1,5 +1,5 @@
 import React from "react";
-import "../components/styles/Popup.css";
+import "./Popup.css";
 
 function Popup({ selected, closePopup}) {
   const posterErr = "https://www.freeiconspng.com/uploads/no-image-icon-6.png";
